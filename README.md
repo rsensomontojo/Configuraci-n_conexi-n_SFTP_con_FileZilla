@@ -37,8 +37,11 @@
 
 ## Notas
 - Si la conexión falla, asegurarse de que el servidor tiene el servicio SSH activado.
-- Verificar que el firewall del servidor permita conexiones SFTP.
+ ```bash
+   systemctl status ssh
+   ```
+- Asegúrate de que SFTP esté instalado en el servidor.
+   ```bash
+   sftp -V
+   ```
 - En algunos casos, el puerto SFTP por defecto es el `22`, probar con ese si es necesario.
-
-Ahora deberías poder conectarte al servidor mediante **FileZilla**.
-
