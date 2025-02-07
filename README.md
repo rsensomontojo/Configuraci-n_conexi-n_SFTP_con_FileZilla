@@ -37,7 +37,7 @@
 
 ## Notas
 - Si la conexión falla, asegurarse de que el servidor tiene el servicio SSH activado.
- ```bash
+   ```bash
    systemctl status ssh
    ```
 - Asegúrate de que SFTP esté instalado en el servidor.
