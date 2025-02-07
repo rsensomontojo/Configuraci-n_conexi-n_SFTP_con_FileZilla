@@ -9,7 +9,7 @@
 1. **Configurar el adaptador de red de la máquina virtual:**
    - Abrir la configuración de la máquina virtual.
    - Ir a la sección de **Red**.
-   - Configurar el adaptador en **Modo puente** (Bridge Adapter).
+   - Configurar el adaptador en **Modo puente** (adaptador puente).
 
 2. **Iniciar la máquina virtual del servidor:**
    - Encender la máquina virtual.
@@ -24,12 +24,16 @@
 
 4. **Conectar con FileZilla:**
    - Abrir **FileZilla Client**.
+     ![Visual](Filezilla_1.png)
+     
    - En la barra superior, ingresar los siguientes datos:
      - **Servidor:** `sftp://<IP_DEL_SERVER>`
      - **Nombre de usuario:** `<USUARIO>`
      - **Contraseña:** `<CONTRASEÑA>`
      - **Puerto:** `21` (Probar también sin puerto)
+     - *En mi caso fue sin puerto
    - Clic en **Conexión rápida**.
+     ![Visual](Filezilla_2.png)
 
 ## Notas
 - Si la conexión falla, asegurarse de que el servidor tiene el servicio SSH activado.
