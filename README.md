@@ -26,7 +26,7 @@
    - Abrir **FileZilla Client**.
      ![Visual](Filezilla_1.png)
      
-   - En la barra superior, ingresar los siguientes datos:
+   - En la barra superior, escribe los siguientes datos:
      - **Servidor:** `sftp://<IP_DEL_SERVER>`
      - **Nombre de usuario:** `<USUARIO>`
      - **Contraseña:** `<CONTRASEÑA>`
